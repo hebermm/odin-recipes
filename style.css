@@ -1,3 +1,15 @@
-h1{
-    color: brown;
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2{
+    text-align: center;
+    background-color: burlywood;
+    font-weight: 100px;
+    color:darkslategray;
+}
+
+.amor{
+    font-weight: bolder;
+    font-size: large;
 }
