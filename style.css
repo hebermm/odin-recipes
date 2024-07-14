@@ -1,14 +1,39 @@
+*{
+    box-sizing: border-box;
+}
 html{
     font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: beige;
+}
+.lista{
+    list-style: none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border:3px solid rgb(184, 149, 104);
+    background-color: burlywood;
+}
+.item{
+    margin:10px;
+    font-size: 30px;
 }
 
 h1, h2{
     text-align: center;
     background-color: burlywood;
+    width: 500px;
+    margin: 20px auto;
+    border: 3px solid rgb(184,149,104);
     font-weight: 100px;
-    color:darkslategray;
+    color:black;
 }
 
+p{
+    font-size: 20px;
+    margin:0px 500px;
+}
 .amor{
     font-weight: bolder;
     font-size: large;
