@@ -27,12 +27,16 @@ body{
 .listas{
     width: 500px;
     margin:0 auto;
+    font-size: 18px;
 }
 
-.lista.pasos{
+.listas.ingr{
     list-style: circle;
 }
 
+.listas.pasos{
+    list-style:lower-roman;
+}
 h1, h2{
     text-align: center;
     background-color: burlywood;
